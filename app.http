@@ -1,0 +1,56 @@
+POST https://venkatadeepakzabmsnjscpikngv.drops.nxtwave.tech/login
+Content-type: application/json
+
+{
+  "username": "christopher_phillips",
+  "password": "christy@123"
+}
+
+###
+
+GET https://venkatadeepakzabmsnjscpikngv.drops.nxtwave.tech/states/8
+Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImNocmlzdG9waGVyX3BoaWxsaXBzIiwiaWF0IjoxNzE3NzM4NzcwfQ.LtQNbnNdfZGEjLXq5zcyMSYObuO_bpUzrkV6f6xuZQg
+
+###
+
+POST https://venkatadeepakzabmsnjscpaqlbe.drops.nxtwave.tech/districts/
+Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImNocmlzdG9waGVyX3BoaWxsaXBzIiwiaWF0IjoxNzE3NzM4MTI4fQ.J-UUm2MNEjKbRR-N8WDj6rq_z6SPH-nNgxE08bG0H5g
+Content-type: application/json
+
+{
+  "districtName": "Bagalkot",
+  "stateId": 3,
+  "cases": 2323,
+  "cured": 2000,
+  "active": 315,
+  "deaths": 8
+}
+
+###
+
+GET https://venkatadeepakzabmsnjscpaqlbe.drops.nxtwave.tech/districts/322
+Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImNocmlzdG9waGVyX3BoaWxsaXBzIiwiaWF0IjoxNzE3NzM4MTI4fQ.J-UUm2MNEjKbRR-N8WDj6rq_z6SPH-nNgxE08bG0H5g
+
+###
+
+DELETE https://venkatadeepakzabmsnjscpaqlbe.drops.nxtwave.tech/districts/770
+Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImNocmlzdG9waGVyX3BoaWxsaXBzIiwiaWF0IjoxNzE3NzM4MTI4fQ.J-UUm2MNEjKbRR-N8WDj6rq_z6SPH-nNgxE08bG0H5g
+
+###
+PUT https://venkatadeepakzabmsnjscpaqlbe.drops.nxtwave.tech/districts/770
+Content-type: application/json
+Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImNocmlzdG9waGVyX3BoaWxsaXBzIiwiaWF0IjoxNzE3NzM4MTI4fQ.J-UUm2MNEjKbRR-N8WDj6rq_z6SPH-nNgxE08bG0H5g
+
+{
+  "districtName": "Nadia",
+  "stateId": 3,
+  "cases": 9628,
+  "cured": 6524,
+  "active": 3000,
+  "deaths": 104
+}
+
+###
+
+GET https://venkatadeepakzabmsnjscpaqlbe.drops.nxtwave.tech/states/31/stats
+Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImNocmlzdG9waGVyX3BoaWxsaXBzIiwiaWF0IjoxNzE3NzM4MTI4fQ.J-UUm2MNEjKbRR-N8WDj6rq_z6SPH-nNgxE08bG0H5g
